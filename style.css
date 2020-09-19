@@ -12,3 +12,35 @@ h1 {
   color: #373fff;
   
 }
+
+
+ul.nav-bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #baffd1;
+  border-style: solid;
+  border-color: #011126;
+}
+
+li.nav {
+  float: right;
+  font-size: 15px;
+}
+
+li.nav a {
+  display: block;
+  color: #011126;
+  background-color:#ffdedb;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+li.nav a:hover {
+  background-color: #011126;
+  color: #ffdedb;
+}
