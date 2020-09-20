@@ -1,5 +1,10 @@
 /* CSS files add styling rules to your content */
-
+class {
+  green;
+  pink;
+  yellow;
+  purple;
+}
 body {
   font-family: "Comic Sans MS", cursive, sans-serif;
   margin: 2em;
@@ -11,6 +16,52 @@ h1 {
   font-style: italic;
   color: #373fff;
   
+}
+a {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+ 
+  color: black;
+}
+
+td.green {
+  padding: 10px;
+  background-color: #baffd1;
+}
+td.green a:hover {
+  background-color: #ffc3ba;
+  color: black;
+}
+
+td{
+  font-size: 25px;
+}
+td.pink {
+  padding: 10px;
+  background-color: #ffc3ba;
+}
+td.pink a:hover {
+  background-color: #bac0ff;
+  color: black;
+}
+
+
+td.yellow {
+  padding: 10px;
+  background-color: #fff4ba;
+}
+td.yellow a:hover {
+  background-color: #baffd1;
+  color: black;
+}
+
+
+td.purple {
+  padding: 10px;
+  background-color: #bac0ff;
+}
+td.purple a:hover {
+  background-color: #fff4ba;
+  color: black;
 }
 
 
